@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Game to Beat</string>
+
+    <!-- Login -->
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="password_invalid">Password must be at least 6 characters</string>
+    <string name="email_invalid">This email address is invalid</string>
+    <string name="email_reset_invalid">Enter your registered email</string>
+    <string name="login_error">Authentication failed, check your email and password.</string>
+    <string name="reset_success">We have sent you instructions to reset your password!</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="reset_password">Reset password</string>
+    <string name="register_now">Not a member? Register now.</string>
+    <string name="register_your_user">Register your user</string>
+    <string name="repeat_your_password">Repeat your password</string>
+    <string name="register">Register</string>
+    <string name="register_error">Failed to register user</string>
+    <string name="register_success">Welcome!</string>
+    <string name="logout">Logout</string>
+
+    <string name="beat">Beat</string>
+    <string name="playing">Playing</string>
+    <string name="want">Want</string>
+    <string name="search_game_title">Type a game title</string>
+    <string name="search">Search</string>
+
+    <string name="error_msg">As error has ocurred.</string>
+    <string name="game_list_empty">There is no results to show.</string>
+    <string name="type_game">Type a game name to search.</string>
+    <string name="rating">Rating</string>
+    <string name="content_game_cover">Game Cover</string>
+</resources>
