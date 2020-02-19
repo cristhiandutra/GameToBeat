@@ -1,16 +1,16 @@
 package com.cristhian.gametobeat.ui.list;
 
-import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProviders;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.design.widget.TabLayout;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
+import androidx.viewpager.widget.ViewPager;
 
 import com.cristhian.gametobeat.R;
 import com.cristhian.gametobeat.database.Game;
@@ -18,6 +18,7 @@ import com.cristhian.gametobeat.database.GameViewModel;
 import com.cristhian.gametobeat.ui.login.LoginActivity;
 import com.cristhian.gametobeat.ui.search.GameSearchActivity;
 import com.cristhian.gametobeat.ui.widget.GameWidget;
+import com.google.android.material.tabs.TabLayout;
 import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.List;
