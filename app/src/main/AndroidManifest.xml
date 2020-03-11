@@ -11,7 +11,7 @@
         android:roundIcon="@drawable/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.detail.GameDetailActivity"/>
+        <activity android:name=".ui.detail.GameDetailActivity" />
         <activity android:name=".ui.search.GameSearchActivity" />
         <activity
             android:name=".ui.login.RegisterActivity"
