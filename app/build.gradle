@@ -21,11 +21,13 @@ android {
     buildTypes {
         debug {
             buildConfigField 'String', "IgdbKey", IgdbKey
+            buildConfigField 'String', "IgdbAuthorization", IgdbAuthorization
         }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
             buildConfigField 'String', "IgdbKey", IgdbKey
+            buildConfigField 'String', "IgdbAuthorization", IgdbAuthorization
             signingConfig signingConfigs.config
         }
     }

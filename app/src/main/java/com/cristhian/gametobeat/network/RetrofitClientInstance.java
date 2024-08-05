@@ -27,7 +27,8 @@ public class RetrofitClientInstance {
 
                     Request request = original
                             .newBuilder()
-                            .addHeader("user-key", BuildConfig.IgdbKey)
+                            .addHeader("Authorization", BuildConfig.IgdbAuthorization)
+                            .addHeader("Client-ID", BuildConfig.IgdbKey)
                             .build();
 
                     return chain.proceed(request);
