@@ -67,6 +67,17 @@ android {
         implementation 'com.squareup.retrofit2:retrofit:2.5.0'
         implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
     }
+
+    namespace 'com.cristhian.gametobeat'
+
+    // Add this to the correct ButterKnife function.
+    tasks.withType(JavaCompile).configureEach {
+        options.fork = true
+        options.forkOptions.jvmArgs += [
+                '--add-exports=jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED',
+                '--add-exports=jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED',
+                '--add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED']
+    }
 }
 
 dependencies {
